@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,  //coment if you want to see error
     children: [
       // localhost:xxxx/
       { index: true, element: <TodolistPage /> },
